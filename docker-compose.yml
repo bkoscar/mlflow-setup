@@ -5,7 +5,8 @@ services:
     ports:
       - "5001:5001"
     volumes:
-      - ./src:/home/mlflow/src
-      - ./src/mlruns:/home/mlflow/src/mlruns
+      - ./src/models:/home/mlflow/src/models # MLflow models
+      - ./src/mlruns:/home/mlflow/src/mlruns # MLflow tracking server
+      # add more modules if needed
     environment:
       - MLFLOW_TRACKING_URI=file:///home/mlflow/src/mlruns

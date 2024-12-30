@@ -47,9 +47,6 @@ WORKDIR ${HOME_DIR}
 
 COPY src ${HOME_DIR}/src
 
-# Crear el directorio mlruns
-# RUN sudo mkdir -p ${HOME_DIR}/src/mlruns
-
 # Establecer MLFLOW_TRACKING_URI como variable de entorno
 ENV MLFLOW_TRACKING_URI=file://${HOME_DIR}/src/mlruns
 
