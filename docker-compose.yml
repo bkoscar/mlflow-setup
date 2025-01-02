@@ -7,6 +7,6 @@ services:
     volumes:
       - ./src/models:/home/mlflow/src/models # MLflow models
       - ./src/mlruns:/home/mlflow/src/mlruns # MLflow tracking server
-      # add more modules if needed
+      # add more volumes if needed
     environment:
-      - MLFLOW_TRACKING_URI=file:///home/mlflow/src/mlruns
+      - file:///home/mlflow/src/mlruns

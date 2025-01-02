@@ -60,4 +60,4 @@ RUN python3.11 -m venv ${HOME_DIR}/mlflow_venv \
 EXPOSE 5001
 
 # CMD ["/bin/bash", "-c", "source ${HOME_DIR}/mlflow_venv/bin/activate && mlflow ui --host 0.0.0.0 --port 5001"]
-CMD ["/bin/bash", "-c", "source ${HOME_DIR}/mlflow_venv/bin/activate && mlflow ui --host 0.0.0.0 --port 5001 --backend-store-uri file:///home/mlflow/src/mlruns"]
+CMD ["/bin/bash", "-c", "source ${HOME_DIR}/mlflow_venv/bin/activate && mlflow ui --host 0.0.0.0 --port 5001 --backend-store-uri file:///home/mlflow/src/mlruns --default-artifact-root file:///home/mlflow/src/mlruns"]

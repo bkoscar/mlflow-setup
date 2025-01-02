@@ -1,0 +1,15 @@
+artifact_uri: /home/mlflow/src/mlruns/246184665941063959/ce8890ca9f04464e9f7d2a85ef875e22/artifacts
+end_time: 1735838589884
+entry_point_name: ''
+experiment_id: '246184665941063959'
+lifecycle_stage: active
+run_id: ce8890ca9f04464e9f7d2a85ef875e22
+run_name: nimble-stoat-237
+run_uuid: ce8890ca9f04464e9f7d2a85ef875e22
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735838588469
+status: 3
+tags: []
+user_id: mlflow

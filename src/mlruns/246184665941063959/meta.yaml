@@ -1,0 +1,6 @@
+artifact_location: /home/mlflow/src/mlruns/246184665941063959
+creation_time: 1735838588450
+experiment_id: '246184665941063959'
+last_update_time: 1735838588450
+lifecycle_stage: active
+name: LinearRegression
